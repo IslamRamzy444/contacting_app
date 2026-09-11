@@ -22,5 +22,6 @@
     "valid_password":"Enter a valid password",
     "passwords_mismatch":"Passwords not matching",
     "valid_user_name":"Enter a valid user name",
-    "contact_app":"Contact App"
+    "connect_call":"ConnectCall",
+    "tag_line":"Connect with anyone, anywhere."
 }
