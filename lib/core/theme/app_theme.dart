@@ -106,6 +106,21 @@ class AppTheme {
       backgroundColor: AppColors.primaryColor,
       foregroundColor: AppColors.whiteColor,
       shape: CircleBorder()
-    )
+    ),
+    outlinedButtonTheme: OutlinedButtonThemeData(
+      style: OutlinedButton.styleFrom(
+        foregroundColor: AppColors.primaryColor,
+        side: const BorderSide(color: AppColors.primaryColor, width: 1.5),
+        padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
+        textStyle: GoogleFonts.sora(
+          fontWeight: FontWeight.w600,
+          color: AppColors.primaryColor,
+          fontSize: 16,
+        ),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(20),
+        ),
+      ),
+    ),
   );
 }

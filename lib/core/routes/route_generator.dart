@@ -3,6 +3,7 @@ import 'package:contacting_app/core/routes/app_routes.dart';
 import 'package:contacting_app/features/auth/login/presentation/views/screens/login_screen.dart';
 import 'package:contacting_app/features/auth/register/presentation/views/screens/register_screen.dart';
 import 'package:contacting_app/features/home/presentation/views/screens/home_screen.dart';
+import 'package:contacting_app/features/profile/presentation/views/screens/edit_profile_screen.dart';
 import 'package:contacting_app/features/search/presentation/views/screens/search_screen.dart';
 import 'package:contacting_app/features/splash/presentation/views/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
@@ -19,7 +20,9 @@ class RouteGenerator {
       case AppRoutes.splash:
         return MaterialPageRoute(builder: (context) => const SplashScreen(),);
       case AppRoutes.search:
-        return MaterialPageRoute(builder: (context) => const SearchScreen(),);  
+        return MaterialPageRoute(builder: (context) => const SearchScreen(),);
+      case AppRoutes.editProfile:
+        return MaterialPageRoute(builder: (context) => const EditProfileScreen(),);    
        default:
         return unDefinedRoute();
     }

@@ -19,7 +19,7 @@ class RegisterRemoteDataSourceImpl implements RegisterRemoteDataSourceContract{
       await credential.user?.updateDisplayName(name);
       await credential.user?.reload();
 
-      final user = credential.user!;
+      final user = _auth.currentUser!;
       final model=UserModel.fromFirebaseUser(user);
       await _firestore.collection('users').doc(user.uid).set({
         ...model.toJson(),
