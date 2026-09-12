@@ -26,5 +26,18 @@
     "tag_line":"Connect with anyone, anywhere.",
     "contacts": "Contacts",
     "calls": "Calls",
-    "profile": "Profile"
+    "profile": "Profile",
+    "no_user_data": "No user data",
+    "edit_profile": "Edit Profile",
+    "photo_url_optional": "Photo URL (optional)",
+    "save_changes": "Save Changes",
+    "photo_editing_coming_soon": "Photo editing coming soon",
+    "yes": "Yes",
+    "no": "No",
+    "retry":"Retry",
+    "online":"Online",
+    "offline":"Offline",
+    "logout":"Logout",
+    "logout_confirmation":"Are you sure you want to logout?",
+    "profile_updated_success":"Profile Updated Successfully"
 }
