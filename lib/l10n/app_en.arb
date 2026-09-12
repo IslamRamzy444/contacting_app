@@ -23,5 +23,8 @@
     "passwords_mismatch":"Passwords not matching",
     "valid_user_name":"Enter a valid user name",
     "connect_call":"ConnectCall",
-    "tag_line":"Connect with anyone, anywhere."
+    "tag_line":"Connect with anyone, anywhere.",
+    "contacts": "Contacts",
+    "calls": "Calls",
+    "profile": "Profile"
 }
