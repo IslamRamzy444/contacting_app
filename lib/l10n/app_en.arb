@@ -39,5 +39,8 @@
     "offline":"Offline",
     "logout":"Logout",
     "logout_confirmation":"Are you sure you want to logout?",
-    "profile_updated_success":"Profile Updated Successfully"
+    "profile_updated_success":"Profile Updated Successfully",
+    "no_contacts": "No contacts yet",
+    "audio_call":"Audio Call",
+    "video_call":"Video Call"
 }
