@@ -5,4 +5,7 @@ abstract class AppRoutes {
   static const String home='/home';
   static const String search='/search';
   static const String editProfile='/edit_profile';
+  static const String audioCall = '/audio-call';
+  static const String videoCall = '/video-call';
+  static const String incomingCall = '/incoming-call';
 }

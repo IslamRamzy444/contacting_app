@@ -42,5 +42,22 @@
     "profile_updated_success":"Profile Updated Successfully",
     "no_contacts": "No contacts yet",
     "audio_call":"Audio Call",
-    "video_call":"Video Call"
+    "video_call":"Video Call",
+    "speaker": "Speaker",
+  "end_call": "End",
+  "camera": "Camera",
+  "switch_camera": "Switch",
+  "accept": "Accept",
+  "decline": "Decline",
+  "calling": "Calling...",
+  "connected": "Connected",
+  "call_ended": "Call Ended",
+  "connecting": "Connecting...",
+  "incoming_call": "Incoming Call",
+  "incoming_audio_call": "Incoming Audio Call",
+  "incoming_video_call": "Incoming Video Call",
+  "missed": "Missed",
+  "rejected": "Rejected",
+  "no_call_history": "No call history",
+  "mute":"Mute"
 }
