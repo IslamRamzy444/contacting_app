@@ -63,33 +63,35 @@ class _CallHistoryScreenState extends State<CallsHistoryScreen> {
               return SingleChildScrollView(
                 child: Padding(
                   padding: EdgeInsets.all(width * 0.06),
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Icon(
-                        Icons.error_outline,
-                        size: width * 0.16,
-                        color: AppColors.redColor,
-                      ),
-                      SizedBox(height: height * 0.02),
-                      Text(
-                        historyState!.errorMessage!,
-                        style: Theme.of(context).textTheme.bodyLarge,
-                        textAlign: TextAlign.center,
-                      ),
-                      SizedBox(height: height * 0.02),
-                      ElevatedButton.icon(
-                        onPressed: () {
-                          if (currentUserId != null) {
-                            viewModel.doIntent(
-                              GetCallHistoryEvent(currentUserId),
-                            );
-                          }
-                        },
-                        icon: const Icon(Icons.refresh),
-                        label: Text(AppLocalizations.of(context)!.retry),
-                      ),
-                    ],
+                  child: Center(
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Icon(
+                          Icons.error_outline,
+                          size: width * 0.16,
+                          color: AppColors.redColor,
+                        ),
+                        SizedBox(height: height * 0.02),
+                        Text(
+                          historyState!.errorMessage!,
+                          style: Theme.of(context).textTheme.bodyLarge,
+                          textAlign: TextAlign.center,
+                        ),
+                        SizedBox(height: height * 0.02),
+                        ElevatedButton.icon(
+                          onPressed: () {
+                            if (currentUserId != null) {
+                              viewModel.doIntent(
+                                GetCallHistoryEvent(currentUserId),
+                              );
+                            }
+                          },
+                          icon: const Icon(Icons.refresh),
+                          label: Text(AppLocalizations.of(context)!.retry),
+                        ),
+                      ],
+                    ),
                   ),
                 ),
               );
