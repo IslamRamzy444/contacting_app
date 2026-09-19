@@ -271,6 +271,7 @@ Presence is maintained by writing `isOnline: true` on sign-in / app resume and `
    Deploy rules with:
    ```bash
    firebase deploy --only firestore:rules
+```
 6. **Run the app**
    ```bash
    flutter run
